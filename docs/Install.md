@@ -9,8 +9,8 @@
 
 ### 版本管理工具
 
-gvm、asdf、g
-windows下推荐g
+gvm、goenv、asdf、g
+
 
 #### 版本管理工具g
 
