@@ -6,6 +6,15 @@
 2. 配置环境变量，（安装后是否自动配置?待确认）
 3. 验证是否安装完成，命令工具执行 go 
 
+#### 配置代理
+提高Go modules下载速度
+1. 查看镜像
+go env GOPROXY
+2. 切换淘宝镜像
+go env -w GOPROXY=https://goproxy.cn,direct
+3. 切换国外镜像
+go env -w GOPROXY=https://proxy.golang.org,direct
+
 
 ### 版本管理工具
 
