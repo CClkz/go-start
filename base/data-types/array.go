@@ -4,6 +4,9 @@ import "fmt"
 
 func tryArray() {
 	// 数组需要指定长度或者[...]自动推断长度，[]就是切片了
+
+	// var arr [3]int
+	// arr = [3]int{1, 2, 3}
 	arr := [...]int{1, 2, 3}
 	arr[1] = 100
 	fmt.Println(arr)

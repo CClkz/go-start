@@ -2,5 +2,7 @@ package main
 
 func main() {
 	// tryBase()
-	tryArray()
+	// tryArray()
+	tryPointer()
+	tryMap()
 }
