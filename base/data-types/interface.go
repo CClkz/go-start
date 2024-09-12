@@ -14,9 +14,21 @@ func (cat Cat) color() string {
 	return "white"
 }
 
+type Dog struct {
+}
+
+func (cat Dog) color() string {
+	fmt.Println("dog color black")
+	return "black"
+}
+
 func tryInterface() {
 	var animal Animal
+
 	animal = new(Cat)
+	fmt.Println(animal.color())
+
+	animal = Dog{}
 	fmt.Println(animal.color())
 
 }
