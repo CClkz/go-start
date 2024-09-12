@@ -3,6 +3,8 @@ package main
 func main() {
 	// tryBase()
 	// tryArray()
-	tryPointer()
-	tryMap()
+	// tryPointer()
+	// tryMap()
+	// transeType()
+	tryInterface()
 }
