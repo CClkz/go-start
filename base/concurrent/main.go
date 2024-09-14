@@ -13,6 +13,8 @@ func say(s string) {
 }
 
 func main() {
-	go say("world")
-	say("hello")
+	// go say("world")
+	// say("hello")
+	// tryChannel()
+	trySelect()
 }
