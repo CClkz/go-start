@@ -15,6 +15,7 @@ const (
 )
 
 func main() {
+	fmt.Println("os.Args", os.Args, len(os.Args))
 	if len(os.Args) != 2 {
 		fmt.Println("Usage: myping <hostname>")
 		return
