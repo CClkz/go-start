@@ -14,12 +14,6 @@ type Person struct {
 	Email    string `db:"email"`
 }
 
-type Place struct {
-	Country string `db:"country"`
-	City    string `db:"city"`
-	TelCode int    `db:"telcode"`
-}
-
 var Db *sqlx.DB
 
 func init() {
@@ -33,5 +27,8 @@ func init() {
 
 func main() {
 	defer Db.Close() // 确保在main函数结束时关闭数据库连接
-	insertData()
+	// insertData()
+	getData()
+	// updateData("name100")
+	// deleteData()
 }
