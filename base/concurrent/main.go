@@ -17,4 +17,6 @@ func main() {
 	// say("hello")
 	// tryChannel()
 	trySelect()
+	// tryRuntime()
+	// tryRuntime2()
 }
