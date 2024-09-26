@@ -26,6 +26,7 @@ func tryRuntime() {
 
 // 优化下
 func tryRuntime2() {
+	// 等待组
 	var wg sync.WaitGroup
 	wg.Add(2) // 增加一个等待的 goroutine
 

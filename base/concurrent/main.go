@@ -16,7 +16,9 @@ func main() {
 	// go say("world")
 	// say("hello")
 	// tryChannel()
-	trySelect()
+	// trySelect()
 	// tryRuntime()
 	// tryRuntime2()
+	// tryPool1()
+	// tryPool2()
 }
