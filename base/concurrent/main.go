@@ -21,4 +21,5 @@ func main() {
 	// tryRuntime2()
 	// tryPool1()
 	// tryPool2()
+	tryLock()
 }
