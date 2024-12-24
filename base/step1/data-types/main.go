@@ -6,5 +6,6 @@ func main() {
 	// tryPointer()
 	// tryMap()
 	// transeType()
-	tryInterface()
+	// tryInterface()
+	tryStruc()
 }
