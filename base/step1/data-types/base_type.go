@@ -19,4 +19,5 @@ func tryBase() {
 
 	// go var和js var
 	// go var是块级作用域且没有变量提升，不像js var，更接近js let
+
 }

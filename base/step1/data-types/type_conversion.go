@@ -19,6 +19,7 @@ func transeType() {
 	fmt.Println(n2, err)
 
 	// 接口
+	// TODO:interface{} 暂且理解为ts any
 	var i interface{} = "Hello, World"
 	str, ok := i.(string)
 	if ok {

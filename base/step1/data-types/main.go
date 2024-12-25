@@ -3,9 +3,9 @@ package main
 func main() {
 	// tryBase()
 	// tryArray()
-	// tryPointer()
+	tryPointer()
 	// tryMap()
 	// transeType()
 	// tryInterface()
-	tryStruc()
+	// tryStruc()
 }
