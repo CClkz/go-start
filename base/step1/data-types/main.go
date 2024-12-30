@@ -2,10 +2,11 @@ package main
 
 func main() {
 	// tryBase()
+	// transeType()
 	// tryArray()
 	tryPointer()
 	// tryMap()
-	// transeType()
 	// tryInterface()
 	// tryStruc()
+	// tryNil()
 }
