@@ -4,9 +4,9 @@ func main() {
 	// tryBase()
 	// transeType()
 	// tryArray()
-	tryPointer()
+	// tryPointer()
 	// tryMap()
 	// tryInterface()
 	// tryStruc()
-	// tryNil()
+	tryNil()
 }

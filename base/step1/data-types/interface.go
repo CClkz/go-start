@@ -55,6 +55,10 @@ func tryInterface() {
 
 	DrawShapes(circle)
 
+	// 那么定义一个接口类型的变量呢
+	var circle1 Drawer
+	fmt.Println(circle1) // nil
+
 }
 
 // shape.(Circle) 什么意思
