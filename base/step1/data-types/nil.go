@@ -33,9 +33,7 @@ func tryNil() {
 	fmt.Printf("map:%v\n", map1)
 	fmt.Printf("anytype:%v\n", anytype)
 
-	var s []int
-	fmt.Println(s)
-	fmt.Println(s == nil) // 输出true
+	fmt.Println(slice == nil) // 输出true
 
 	// 判断变量类型
 	slicetype := reflect.TypeOf(slice)

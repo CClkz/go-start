@@ -4,7 +4,7 @@ import "fmt"
 
 func InstanceCondition() {
 	// if else
-	var a int = 100
+	a := 100
 	if a < 20 {
 		fmt.Println("a 小于 20")
 	} else {
@@ -15,8 +15,13 @@ func InstanceCondition() {
 	var animal string = "cat"
 	var votes int = 0
 
-	// 不需要break,fallthrough 强制执行下一个case代码（不判断条件）
+	// 不需要break，匹配到就会退出switch
+	// 可加上fallthrough 强制执行下一个case代码（不判断条件）
 	switch animal {
+	case "dog1":
+		fallthrough
+	case "dog2":
+		votes = 101
 	case "cat":
 		votes = 15
 	default:

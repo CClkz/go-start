@@ -5,21 +5,15 @@ package main
 // 引入包
 import (
 	"fmt"
-	// 引入路径是目录
-	// 目录和包名一致时，简洁，推荐一致
-	// 目录和包名不一致，还是引入目录，程序里使用的是包名，这里编辑器自动加上了别名（===包名）
-	usermodels "my-app/base/step1/user/model"
-	// vars包取名main了，不能被引入
-	// vars "my-app/base/vars"
+	// 此处modelAlt是别名，也可不加，不加下面函数里引用时需用包名model
+	// 注意，包名main是被当做程序而不是包，不能引入的
+	modelAlt "my-app/base/step1/user/model"
 )
 
 func main() {
 	/* 这是我的第一个简单的程序 */
 	fmt.Println("Hello, World!")
 
-	// n1 := vars.GetMale()
-	// fmt.Println(n1)
-
-	user := usermodels.User{ID: 1, Name: "Alice"}
+	user := modelAlt.User{ID: 1, Name: "Alice"}
 	fmt.Println("User:", user)
 }

@@ -8,7 +8,7 @@ import (
 func say(s string) {
 	for i := 0; i < 5; i++ {
 		time.Sleep(100 * time.Millisecond)
-		fmt.Println(s)
+		fmt.Println(s, i)
 	}
 }
 
@@ -21,5 +21,6 @@ func main() {
 	// tryRuntime2()
 	// tryPool1()
 	// tryPool2()
-	tryLock()
+	// tryLock()
+	// trySemaphore()
 }

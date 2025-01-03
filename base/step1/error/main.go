@@ -28,6 +28,8 @@ func Divide(varDividee int, varDivider int) (result int, errorMsg string) {
 			divider: varDivider,
 		}
 		errorMsg = dData.Error()
+		// 函数的隐式返回
+		// 函数return未指定返回值，返回函数定义的返回结构，相当于return result,errorMsg
 		return
 	} else {
 		return varDividee / varDivider, ""

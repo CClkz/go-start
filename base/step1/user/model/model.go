@@ -1,4 +1,4 @@
-package usermodels // 包名为 usermodels
+package model // 包名为 model
 
 type User struct {
 	ID   int
