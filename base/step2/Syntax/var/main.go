@@ -2,6 +2,6 @@ package main
 
 func main() {
 	// declareVariables()
-	declareSlice()
+	// declareSlice()
 	// declareArray()
 }
