@@ -7,12 +7,14 @@ import (
 
 type resume struct {
 	Name string `json:"name" doc:"我的名字"`
+	Age  string `json:"age" doc:"我的年龄"`
 }
 
 func findDoc(stru interface{}) map[string]string {
 	t := reflect.TypeOf(stru).Elem()
 	doc := map[string]string{}
 	for i := 0; i < t.NumField(); i++ {
+		fmt.Println(t.Field(i))
 		doc[t.Field(i).Tag.Get("json")] = t.Field(i).Tag.Get("doc")
 	}
 
